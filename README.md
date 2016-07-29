@@ -313,7 +313,7 @@ Tips
 **Code reading**.
 We wrote the code to increase *locality* of the implementation. In many cases, we did not create new function as a logical component of some feature. Instead, we extensively facilitated *scopes* surrounded with *pragma region*. So we recommend to use Visual Studio for code reading if possible. Although commenting of the code is minimum, the code structure can be recognizable with hierarchical structure of *pragma region*.
 
-**Varidation of scene configuration files**. e.g., in Windows environment.
+**Validation of scene configuration files**. e.g., in Windows environment.
 
 > \> conda create --name pykwalify python  
 > \> activate pykwalify  
